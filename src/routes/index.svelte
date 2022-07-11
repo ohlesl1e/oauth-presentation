@@ -8,6 +8,7 @@
 	import OneFigure from "../pages/OneFigure.svelte";
 	import TwoFigures from "../pages/TwoFigures.svelte";
 	import Yelp from "../pages/Yelp.svelte";
+	import Google from "../pages/Google.svelte";
 </script>
 
 <Deck>
@@ -66,7 +67,7 @@
 			items={["Resource owner", "Client"]}
 			images={[
 				"https://api.iconify.design/mdi/account.svg?width=512",
-				"ECorp.png",
+				"yelp-logo.png",
 			]}
 		/>
 	</Slide>
@@ -93,6 +94,8 @@
 	<Slide>
 		<OneFigure title="Access token" image="ECorp.png" />
 	</Slide>
+
+	<Slide><Google /></Slide>
 
 	<Slide>
 		<div
