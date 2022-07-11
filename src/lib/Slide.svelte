@@ -104,7 +104,7 @@
 <div
 	class:hidden
 	bind:this={Slide}
-	class="overflow-x-hidden lg:overflow-y-hidden"
+	class="overflow-x-hidden lg:overflow-y-hidden h-screen"
 >
 	<slot />
 </div>

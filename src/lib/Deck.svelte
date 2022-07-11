@@ -63,11 +63,11 @@
 		const numSlides = $slides.length;
 		const xTap = event.detail.x;
 
-		if (xTap < ScreenWidth / 4) {
+		if (xTap < ScreenWidth / 6) {
 			$currentIndex = previous($currentIndex);
 			$step = 0;
 			// $vizzuStep = 0;
-		} else if (xTap > (3 * ScreenWidth) / 4) {
+		} else if (xTap > (5 * ScreenWidth) / 6) {
 			if ($step == $maxSteps) {
 				$currentIndex = next($currentIndex, numSlides);
 				$step = 0;

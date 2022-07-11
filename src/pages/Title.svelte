@@ -1,9 +1,10 @@
 <div class="flex flex-col min-h-screen justify-center">
     <div
-        class="i-logos-oauth animate__animated animate__flip text-9xl max-w-5/6 mx-auto my-8 text-blue-600"
+        class="i-logos-oauth max-w-6/6 mx-auto my-5 text-blue-600"
+        style="font-size: 12rem;"
     />
     <h1
-        class="font-sans font-black text-neutral-900 text-center text-7xl tracking-tighter max-w-5/6 mx-auto my-8 leading-none"
+        class="font-sans font-black text-neutral-900 text-center text-8xl tracking-tight max-w-6/6 mx-auto my-8 leading-none"
     >
         OAuth 2.0 and OpenID Connect
     </h1>

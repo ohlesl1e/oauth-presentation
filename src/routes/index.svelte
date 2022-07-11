@@ -4,11 +4,94 @@
 	import Vizzu from "$lib/Vizzu.svelte";
 	import { data } from "https://lib.vizzuhq.com/test/integration/test_data/infinite_data.js?client";
 	import Title from "../pages/Title.svelte";
+	import Bullets from "../pages/Bullets.svelte";
+	import OneFigure from "../pages/OneFigure.svelte";
+	import TwoFigures from "../pages/TwoFigures.svelte";
+	import Yelp from "../pages/Yelp.svelte";
 </script>
 
 <Deck>
 	<Slide>
 		<Title />
+	</Slide>
+
+	<Slide>
+		<div class="flex flex-col h-screen justify-center">
+			<h1
+				class="font-sans font-black text-neutral-900 text-center text-8xl tracking-tight max-w-6/6 mx-auto my-8 leading-none"
+			>
+				OAuth
+			</h1>
+			<div class="flex flex-row justify-center">
+				<div class="i-mdi-arrow-bottom-left-thin text-7xl mr-20" />
+				<div class="i-mdi-arrow-bottom-right-thin text-7xl ml-20" />
+			</div>
+			<div class="flex flex-row justify-center">
+				<span
+					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/2 mx-auto mt-8 leading-relaxed animate__animated op0 start-1:op100 start-1:animate__fadeInUp"
+				>
+					Open
+				</span>
+				<span
+					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/2 mx-auto mt-8 leading-relaxed animate__animated op0 start-2:op100 start-2:animate__fadeInUp"
+				>
+					Authorization
+				</span>
+			</div>
+		</div>
+	</Slide>
+
+	<Slide>
+		<Yelp />
+	</Slide>
+
+	<Slide>
+		<Bullets
+			title="OAuth 2.0 Terminology"
+			bullets={[
+				"Resource owner",
+				"Client",
+				"Authorization server",
+				"Resource server",
+				"Scope",
+				"Redirect URI",
+				"Authorization grant",
+				"Access token",
+			]}
+		/>
+	</Slide>
+
+	<Slide>
+		<TwoFigures
+			items={["Resource owner", "Client"]}
+			images={[
+				"https://api.iconify.design/mdi/account.svg?width=512",
+				"ECorp.png",
+			]}
+		/>
+	</Slide>
+
+	<Slide>
+		<TwoFigures
+			items={["Authorization server", "Resource server"]}
+			images={["ECorp.png", "ECorp.png"]}
+		/>
+	</Slide>
+
+	<Slide>
+		<OneFigure title="Scope" image="ECorp.png" />
+	</Slide>
+
+	<Slide>
+		<OneFigure title="Redirect URI" image="ECorp.png" />
+	</Slide>
+
+	<Slide>
+		<OneFigure title="Authorization grant" image="ECorp.png" />
+	</Slide>
+
+	<Slide>
+		<OneFigure title="Access token" image="ECorp.png" />
 	</Slide>
 
 	<Slide>
