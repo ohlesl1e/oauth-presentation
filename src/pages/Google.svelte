@@ -1,5 +1,5 @@
 <div flex flex-col items-center h-screen>
-    <div class="w-1/2 b-2 border-gray rounded-3 my-auto">
+    <div class="b-2 border-gray rounded-3 my-auto" style='width: 928px'>
         <div bg-gray-300 rounded-t-3 py-3 px-3>
             <div i-mdi-circle text-4xl text-red />
             <div i-mdi-circle text-4xl text-amber />
@@ -13,7 +13,7 @@
                 </span>
                 <span class="w-1/24 font-light">|</span>
                 <span class="w-19/24 font-light"
-                    >https://account.google.com/oauth/authorize?response_type=code</span
+                    >https://account.google.com/oauth/authorize?response_type=cod</span
                 >
             </div>
         </div>

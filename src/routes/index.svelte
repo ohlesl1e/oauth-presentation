@@ -9,6 +9,8 @@
 	import TwoFigures from "../pages/TwoFigures.svelte";
 	import Yelp from "../pages/Yelp.svelte";
 	import Google from "../pages/Google.svelte";
+	import Demo from "../pages/Demo.svelte";
+	import Flow from "../pages/Flow.svelte";
 </script>
 
 <Deck>
@@ -29,12 +31,12 @@
 			</div>
 			<div class="flex flex-row justify-center">
 				<span
-					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/2 mx-auto mt-8 leading-relaxed animate__animated op0 start-1:op100 start-1:animate__fadeInUp"
+					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/4 mt-8 leading-relaxed animate__animated op0 start-1:op100 start-1:animate__fadeInUp"
 				>
 					Open
 				</span>
 				<span
-					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/2 mx-auto mt-8 leading-relaxed animate__animated op0 start-2:op100 start-2:animate__fadeInUp"
+					class="font-sans font-normal text-center text-5xl text-neutral-900 w-1/4 mt-8 leading-relaxed animate__animated op0 start-2:op100 start-2:animate__fadeInUp"
 				>
 					Authorization
 				</span>
@@ -44,6 +46,10 @@
 
 	<Slide>
 		<Yelp />
+	</Slide>
+
+	<Slide>
+		<OneFigure title="Delegate" image="valet.png" />
 	</Slide>
 
 	<Slide>
@@ -75,16 +81,16 @@
 	<Slide>
 		<TwoFigures
 			items={["Authorization server", "Resource server"]}
-			images={["ECorp.png", "ECorp.png"]}
+			images={["auth-server.png", "res-server.png"]}
 		/>
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Scope" image="ECorp.png" />
+		<OneFigure title="Scope" image="scope.png" />
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Redirect URI" image="ECorp.png" />
+		<OneFigure title="Redirect URI" image="redirect.png" />
 	</Slide>
 
 	<Slide>
@@ -94,6 +100,10 @@
 	<Slide>
 		<OneFigure title="Access token" image="ECorp.png" />
 	</Slide>
+
+	<Slide><Flow /></Slide>
+
+	<Slide><Demo /></Slide>
 
 	<Slide><Google /></Slide>
 

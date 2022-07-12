@@ -9,7 +9,7 @@
             Many of your friends may already be here, now you can find out. Just
             log in and we'll display all your contacts, and you can select which
             ones to invite! And don't worry, we don't keep your email password
-            or your friends' addresses. Wd loathe spam, too.
+            or your friends' addresses. We loathe spam, too.
         </p>
         <form>
             <div class="flex items-baseline mt-3">
