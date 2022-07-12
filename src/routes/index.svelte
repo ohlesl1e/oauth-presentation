@@ -94,7 +94,7 @@
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Authorization grant" image="ECorp.png" />
+		<OneFigure title="Authorization grant" image="auth-grant.png" />
 	</Slide>
 
 	<Slide>
