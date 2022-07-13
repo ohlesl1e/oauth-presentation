@@ -5,7 +5,7 @@
             <div i-mdi-circle text-4xl text-amber />
             <div i-mdi-circle text-4xl text-green />
             <div
-                class="flex flex-row bg-white rounded-2 border-gray b-2 text-2xl mt-3 text-center py-1"
+                class="flex flex-row bg-white rounded-3 border-gray b-2 text-2xl mt-3 text-center py-1"
             >
                 <span class="text-green-700 w-4/24">
                     <div i-mdi-lock ml-3 mr-3 mb-1 />

@@ -11,6 +11,7 @@
 	import Google from "../pages/Google.svelte";
 	import Demo from "../pages/Demo.svelte";
 	import Flow from "../pages/Flow.svelte";
+	import Start from "../pages/Start.svelte";
 </script>
 
 <Deck>
@@ -49,7 +50,7 @@
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Delegate" image="valet.png" />
+		<OneFigure image="valet.png" />
 	</Slide>
 
 	<Slide>
@@ -62,7 +63,7 @@
 				"Resource server",
 				"Scope",
 				"Redirect URI",
-				"Authorization grant",
+				"Consent",
 				"Access token",
 			]}
 		/>
@@ -94,16 +95,23 @@
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Authorization grant" image="auth-grant.png" />
+		<OneFigure title="Consent" image="auth-grant.png" />
 	</Slide>
 
 	<Slide>
-		<OneFigure title="Access token" image="ECorp.png" />
+		<OneFigure
+			title="Access token"
+			image="https://api.iconify.design/mdi/hand-coin-outline.svg?width=300"
+		/>
 	</Slide>
+
+	<Slide><Start /></Slide>
 
 	<Slide><Flow /></Slide>
 
-	<Slide><Demo /></Slide>
+	<Slide><Demo src="https://oauthdebugger.com" /></Slide>
+
+	<Slide><Demo src="http://photoprint:4000" /></Slide>
 
 	<Slide><Google /></Slide>
 

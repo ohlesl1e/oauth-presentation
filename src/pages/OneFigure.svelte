@@ -13,5 +13,5 @@
             </h1>
         </div>
     {/if}
-    <img class="w-auto max-h-5/6 mx-auto my-8" src={image} alt="figure-1" />
+    <img class="w-auto max-h-4/6 mx-auto my-8" src={image} alt="figure-1" />
 </div>

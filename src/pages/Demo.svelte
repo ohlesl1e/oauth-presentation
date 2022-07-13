@@ -1,3 +1,7 @@
+<script>
+    export let src
+</script>
+
 <div flex flex-col items-center justify-center h-screen>
     <div class="">
         <h1
@@ -7,7 +11,7 @@
         </h1>
     </div>
     <iframe
-        src="http://photoprint:4000"
+        {src}
         class="w-3/4 h-10/12"
         title="demo"
         referrerpolicy="unsafe-url"
