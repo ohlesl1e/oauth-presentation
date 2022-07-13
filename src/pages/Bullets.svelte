@@ -12,7 +12,7 @@
             {title}
         </h1>
         <ul
-            class="font-sans font-semibold text-neutral-900 text-5xl tracking-normal leading-none"
+            class="font-sans font-semibold text-neutral-900 text-5xl tracking-normal leading-none mt-10"
         >
             {#each bullets as value, i}
                 {#if animated}

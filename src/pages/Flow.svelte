@@ -1,11 +1,12 @@
 <div class="flex flex-col min-h-screen justify-center items-center flow-bg">
-    <ul class=''>
+    <ul class="">
         {#each Array(7) as _, i}
             <li>
-                <img 
-                class='my-15 animate__animated op0 start-{i+1}:op100 start-{i+1}:animate__fadeInUp'
-                src="flow{i + 1}.png" 
-                alt="{i + 1} step" 
+                <img
+                    class="my-15 animate__animated op0 start-{i +
+                        1}:op100 start-{i + 1}:animate__fadeInUp"
+                    src="flow{i + 1}.png"
+                    alt="{i + 1} step"
                 />
             </li>
         {/each}
@@ -14,6 +15,6 @@
 
 <style>
     .flow-bg {
-        background-image: url('flow-background.png');
+        background-image: url("flow-background.png");
     }
 </style>

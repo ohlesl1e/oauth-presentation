@@ -57,7 +57,7 @@
                 <span class="w-3/4 px-2 items-baseline">
                     <input type="password" class="b rounded" />
                     <small class="italic text-truegray-5"
-                        >(The password you use to log into your Gmail email)</small
+                        >(The password you use to log into your email)</small
                     >
                 </span>
             </div>
